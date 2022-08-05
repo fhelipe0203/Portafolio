@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins', 'sans-serif;'; }
+
+section
+{
+	padding: 100px;
+	min-height: 100vh;
+}
+
+.naveg ul 
+{list-style-type: none;
+  margin-right: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;}
+.naveg  li
+{ float: left;
+ }
+.naveg a 
+{ display: block;
+  color:  #fff;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+  font-size: 1em;
+
+  }
+
+.bandeira	
+{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+}
+.bandeira .img1
+{
+  position: absolute;
+  top: 0;
+  left: 0; 
+  width: 500px;
+  height: 100%;
+}
+.bandeira .img1 img
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+ object-fit: cover;
+}
+.bandeira .caixadeconteudo
+{  
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(100% - 500px);  
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.Logotexto
+{
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #333;
+  color: #fff;
+}
+.bandeira .caixadeconteudo h4
+{
+  font-size: 1.5em;
+  color: #333;
+  font-weight: 300;
+}
+.bandeira .caixadeconteudo h4 span 
+{
+    color: #ff3f36;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+.bandeira .caixadeconteudo h2
+{
+	font-size: 3em;
+	color: #333;
+	line-height: 1em;
+}
+p
+{
+	font-size: 1.1em;
+    margin: 20px 0;
+    font-weight: 300;
+}
+.botsaber
+{
+   background: #00bcd4;
+   color: #fff;
+   padding: 10px 30px;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: 500;
+   letter-spacing: 2px;
+} 
+.redes
+{  position: absolute;
+	left:100px ;
+	bottom: 20px ;
+	display: flex;
+	justify-content: center ;
+	align-items: center;
+}
+.redes li 
+{
+  margin-right:10px ;
+  list-style:none;
+}
+.redes li img 
+{
+  transform: scale(0.5);
+  opacity: 0.7 ;
+}
+.titulo
+ {
+   width: 100%;
+   text-align: center;
+ }
+ .titulo h2
+ { 
+   position: relative;
+   font-size: 1.8em;
+   font-weight: 700;
+   letter-spacing:1px;
+
+ }
+ .titulo p 
+ {
+ 	max-width:700px;
+ 	display: inline-block;
+ }
+ /* Se coloca essa clase de branco para aproveitar classe titulo */
+.titulo.branco h2, 
+.titulo.branco p 
+{
+  color: #fff;
+}
+
+.sobremim
+{ background: #000;
+}
+.sobremim .contenido
+{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 40px;
+}
+.sobremim .contenido .textopri
+{ 
+	min-height: 49%;
+	width: 49%;
+	color: #fff;
+ }
+ .sobremim .contenido .img2
+{ margin-left:40px;
+ }
+ .sobremim .contenido .img2 img 
+{
+	max-width: 100%;
+	height: 800px;
+} 
+.servico .contenido
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap ;
+}
+.servico .contenido .servicoicon
+{
+	padding: 40px 20px;
+	max-width: 320px;
+	margin: 3px;
+  text-align: center;
+  background: #f5f5f5;
+}
+.contacto
+{
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   flex-direction: column;
+}
+.contacto .formulario
+{
+  position: relative;
+  width: 700px;
+  margin-top: 20px;
+}
+.contacto .formulario .coluna
+{
+  width: 100%;
+  display: flex;
+}
+.contacto .formulario .coluna .forma1
+{
+  width: 50%;
+  margin: 10px;
+}
+.contacto .formulario .coluna .forma2
+{
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+}
+.contacto .formulario .coluna input
+{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #111;
+  color: #fff;
+  font-size: 16px;
+}
+.contacto .formulario .coluna input[type="submit"]
+{
+  background: #00bcd4;
+  color: #fff;
+  padding: 10px 30px;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
