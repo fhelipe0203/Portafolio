@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="scripts.js" defer></script> <!-- defer é para que carregue todo html primeiro-->
+	
 	<title>Portáfolio</title>
 </head>
 <body>
@@ -13,6 +14,7 @@
   <li><a href="#home">Home</a></li>
   <li><a href="#sobremim">Sobre mim</a></li>
   <li><a href="#contact">Contacto</a></li>
+  <li><a href="#local">Localização</a></li>
 </ul>
 	</header>
 <section class="bandeira" id="home">
@@ -118,6 +120,15 @@
          	 		</div>
          	 		</form>
  </section><!-- deixei varias fotos sem uso,para poder usar mais na frente-->
- 
+  <section id="local">
+    <div class="titulo">
+		<h2>Localização</h2>
+			<p>pode me localizar nesse endereço</p>
+     </div>
+		<div id="map" class="mapa"></div>
+			<script src="ubicacion.js"></script>
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtMX0CnVguYETb1_70omcEvKmFru92ps4&callback=iniciarMap"></script>
+
+  </section>
 </body>
 </html>
