@@ -242,3 +242,8 @@ p
   letter-spacing: 2px;
   cursor: pointer;
 }
+.mapa
+{
+  height: 500px;
+  width:  100%;
+}
