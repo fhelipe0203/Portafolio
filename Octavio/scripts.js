@@ -9,15 +9,15 @@ btn.addEventListener("click", function(e) {
   
   const value = name.value;
 
-  let email = document.querySelector("#email");
+  const email = document.querySelector("#email");
   
   const  value2 = email.value;
 
-  let numero = document.querySelector("#numero");
+  const numero = document.querySelector("#numero");
 
   const nume = numero.value;
 
-  let mensaje = document.querySelector("#mensaje")
+  const mensaje = document.querySelector("#mensaje")
 
   const mensa = mensaje.value;
 
