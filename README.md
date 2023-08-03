@@ -1,1 +1,0 @@
-# Esse é meu projeto de portafolio que vai ser atualizado futuramente até pode colocar esse projeto na Rede. em Javacrispt esta um pouco simple porque não crie um servidor local. mas ideias são semelhantes.
