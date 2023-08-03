@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="PT">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="scripts.js" defer></script> <!-- defer é para que carregue todo html primeiro-->
+	
+	<title>Portáfolio</title>
+</head>
+<body>
+	<header class="naveg">
+		<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#sobremim">Sobre mim</a></li>
+  <li><a href="#contact">Contacto</a></li>
+  <li><a href="#local">Localização</a></li>
+</ul>
+	</header>
+<section class="bandeira" id="home">
+	<div class="img1">
+		<img src="imagens/imagen3.jpeg">
+	</div>
+
+	<div class="caixadeconteudo">
+		<div>
+				<h5 class="Logotexto">Meu_Portafolio</h5>
+				 <h4><span>Olá,</span>Sou</h4>
+		         <h2>Octavio  Cavalcante</h2>
+		         <h4>Sou futuro desenvolvedor back-end.</h4>
+			    <p>Tenho 20 anos sou originário da Venezuela,com domínio na língua portuguesa, bastante responsável,com alto conhecimento em TI, a procurar de projetos back-end tenho muita imaginação e dedicação serei o cara que você procura.</p>
+			    <a href="#sobremim" class="botsaber">Saber Mais</a>
+			</div>
+			<ul class="redes">
+				<li><a href="https://www.facebook.com/octaviofhelipe.paraguarincavalcante"><img src="imagen1/facebook.png"></a></li>
+				<li><a href="https://www.instagram.com/fhelipe2524/"><img src="imagen1/instagram.png"></a></li>
+	</div>
+  </section> 
+  <section class="sobremim" id="sobremim">
+  	<div class="titulo branco">
+  		<h2>Sobre Mim</h2>
+  		<p> Vou falar um pouco mais sobre mim </p>
+  	</div>
+  	<div class="contenido">
+  	<div class="textopri">
+  		<p>Sou Originário da Venezuela,Maior parte da minha vida foi estando na fronteira do Brasil, fazendo que isso facilitara meu aprendizagem com o portugues,depois de 15 anos tomei a desição junto com minha mãe fazer ensino medio em brasil,é assim comecei a melhor travessia da minha vida que até hoje to agradeçido.<br><br>Recemente tó fazendo um curso na area da progamação sendo quando concluir formaria um desenvolvedor Back-End,tendo em vista que tenho muito cursos relacionado na area de Ti,posso ofrecer varios serviços. </p> <!-- quando tiver mais tempo fazer um atalho para ir a Servico-->
+  	</div>
+    <div class="img2">
+    	<img src="imagens/imagen2.jpeg">
+    </div>
+</div> 
+  </section>
+ <section class="servico" id="servico">
+ 	<div class="titulo">
+  		<h2>Serviços</h2>
+  		<p>São os Serviços que posso ofrecer atualmente.</p>
+  	</div>
+    <div class="contenido">
+    	<div class="servicoicon">
+    		<img src="imagen1/icon1.png">
+    		<h2>Desenhador Web</h2>
+    		<p>Alto conhecimento para criação de paginas Web
+    		</p>
+    	</div>
+      
+    	<div class="servicoicon">
+    		<img src="imagen1/icon3.png">
+    		<h2>Android</h2>
+    		<p>Podendo criar aplicativos nativo de Android
+    		</p>
+    	</div> 
+    	<div class="servicoicon">
+    		<img src="imagen1/icon4.png">
+    		<h2>Editor de Fotos</h2>
+    		<p>Usando as melhores tecnicas para edição
+    		</p>
+    	</div>
+    		<div class="servicoicon">
+    		<img src="imagen1/icon6.png">
+    		<h2>Editor de Videos</h2>
+    		<p>Usando os melhores editores
+    		</p>
+    	</div>
+    </div>
+ </section>
+ <section class="contacto" id="contact">
+ 	<div class="titulo branco">
+  		<h2>Contato</h2>
+  		<p> Vou entrar em contato com voçe, pode deixar sua infomações</p>
+  	</div>
+   <form id="formulario">
+     <div class="formulario">
+        <div class="coluna">
+        <div class="forma1">  
+        <input type="text"required="obrigatório" name="nome" id="nome" placeholder="nome completo">
+          </div>
+          <div class="forma1">
+       <input type="email"  required="obrigatório" name="email" id="email" placeholder="email">
+       </div>
+        <div class="forma1">
+       <input type="text"  placeholder="numero de telefone" required="obrigatório" name="numero" id="numero" >
+          </div>
+         </div>
+         <div class="coluna"> 
+         	 <div class="forma2">
+    	     <input type="text"  placeholder="mensagens de texto" required="obrigatorio" name="mensaje" id="mensaje" >
+            </div>
+            
+            <div class="coluna">
+            	<div class="forma2">
+            		<input  id="enviar"type="Submit" value="enviar">
+            		
+            	</div>
+            </div>
+
+
+    	     </div>      
+       </div>
+       
+         	 		</div>
+         	 		</form>
+ </section><!-- deixei varias fotos sem uso,para poder usar mais na frente-->
+  <section id="local">
+    <div class="titulo">
+		<h2>Localização</h2>
+			<p>Pode me localizar nesse endereço</p>
+     </div>
+		
+	 <div id="map" class="mapa"></div>
+			<script src="ubicacion.js"></script>
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtMX0CnVguYETb1_70omcEvKmFru92ps4&callback=iniciarMap"></script>
+
+  </section>
+</body>
+</html>
